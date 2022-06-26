@@ -1,0 +1,36 @@
+{
+  "name": "todolist",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'It's working'",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipHalon/ToDoList.git"
+  },
+  "keywords": [
+    "'to-do",
+    "list'",
+    "'to-do'",
+    "'list'"
+  ],
+  "author": "Swiatomysl Halon",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/FilipHalon/ToDoList/issues"
+  },
+  "homepage": "https://github.com/FilipHalon/ToDoList#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
